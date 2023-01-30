@@ -10,6 +10,7 @@ const advice = async() => {
     renderAdvice(container, `A D V I C E  #  ${data.slip.id}`)
 }
 
+advice()
 const renderAdvice = (el, message) =>{
     el.innerText = message
 }
